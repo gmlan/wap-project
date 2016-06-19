@@ -1,0 +1,84 @@
+ .ui-autocomplete-loading {
+    background: white url("../images/ui-anim_basic_16x16.gif") right center no-repeat;
+  }
+  
+ html, body{
+ 	padding:0;
+ 	margin:0;
+ 	background-color:lightgrey;
+ } 
+ 
+ .ui-autocomplete {
+	max-height: 400px;
+	overflow-y: auto;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+}
+/* IE 6 doesn't support max-height
+ * we use height instead, but this forces the menu to always be this tall
+ */
+* html .ui-autocomplete {
+	height: 400px;
+}
+
+ div.content{
+ 	width:893px;
+    min-height:600px;
+ 	margin:0 auto;
+ 	padding-bottom : 50px;
+ 	background-color:white;  	 
+ }
+ 
+ div.banner{
+ 	background-image: url("../images/banner.jpg");
+ 	height:130px;
+ 	width:893px;
+ 	margin:0 auto;
+ }
+ 
+ div.search{
+	padding: 30px 0 60px 0;
+ 	margin: 0 auto;
+ 	width:400px; 	
+ }
+ 
+ div.search input{
+ 	width:300px;    
+    padding: 0.4em;    
+    color: black;
+    font-size: 1.1em;       
+    outline: none;
+    /*
+  	padding-left: 1.5em;
+  	background: lightgrey;
+    border-radius: 2em;
+    border: none;
+    box-shadow: 0 4px 6px -5px hsl(0, 0%, 40%), inset 0px 4px 6px -5px hsl(0, 0%, 2%)*/
+}
+
+ 
+ div.result{
+ 	width:800px;
+ 	margin:0 auto;
+ }
+ 
+ div.search div{
+ 	background-color:#4285f4;
+ 	display:inline-block;
+ 	width:24px;
+ 	padding:4px 6px;
+ 	position:relative;
+ 	top: 10px;
+ 	left:-4px;
+ 	border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 	
+ }
+ 
+ div.search div span{
+ 	background: url(../images/nav_logo242.png) no-repeat -107px -55px;
+    color: transparent;
+    display: inline-block;
+    height: 25px;
+    width: 24px;
+    margin: 3px auto;
+ }
